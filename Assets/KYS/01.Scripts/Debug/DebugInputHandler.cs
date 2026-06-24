@@ -137,8 +137,11 @@ public class DebugInputHandler : MonoBehaviour
 
         if (GameTimeManager.Instance != null)
         {
-            GameTimeManager.Instance.SetTime(8f);
+            GameTimeManager.Instance.SetTime(GameTimeManager.Instance.StartHour);
         }
+
+        GameCore.PlayerDeathHandler?.GetComponent<PlayerMove>()?.ResetState();
+        GameCore.PlayerAnimController?.ResetToIdle();
 
         GameCore.ResetHUDPanels();
 

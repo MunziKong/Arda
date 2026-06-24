@@ -155,9 +155,18 @@ public class CodexUIController : MonoBehaviour
         }
 
         _codexSlots.Clear();
-
+        List<string> names = new List<string>();
         foreach (MonsterData monster in GameCore.PlayerOwnedData.DiscoveredMonsters)
         {
+            if (names.Contains(monster.monsterName))
+            {
+                continue;
+            }
+            else
+            {
+                names.Add(monster.monsterName);
+                Debug.Log("도감에 나타날 monster Name" + monster.monsterName);
+            }
             CodexSlotUI slot = Instantiate(_codexSlotPrefab, _codexContent);
             slot.Setup(monster, OnCodexSlotSelected);
             _codexSlots.Add(slot);

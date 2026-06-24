@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f011b2b1f1789e4b97b50b09f1564f6, type: 3}
   m_Name: QC_Load
   m_EditorClassIdentifier: Assembly-CSharp::InteractObjectCondition
-  description: "\uC81C\uB2E8\uACFC \uC0C1\uD638\uC791\uC6A9"
+  description: "\uC81C\uB2E8\uACFC \uC0C1\uD638\uC791\uC6A9 [E]"
   targetObjectId: Load

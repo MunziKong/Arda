@@ -453,12 +453,17 @@ public class PlayerMove : MonoBehaviour
             elapsed += Time.deltaTime;
             float remaining = Mathf.Max(0f, _rollCooldown - elapsed);
 
-            _rollUI.UpdateRollUI(remaining, _rollCooldown);
+            if (_rollUI == null)
+                _rollUI = Object.FindFirstObjectByType<RollUIController>(FindObjectsInactive.Include);
+
+            if (_rollUI != null)
+                _rollUI.UpdateRollUI(remaining, _rollCooldown);
 
             yield return null;
         }
 
-        _rollUI.UpdateRollUI(0f, _rollCooldown);
+        if (_rollUI != null)
+            _rollUI.UpdateRollUI(0f, _rollCooldown);
         _isRollCooldown = false;
     }
 
@@ -565,6 +570,11 @@ public class PlayerMove : MonoBehaviour
         _footstepIntervalMultiplier = 1f;
     }
 
+    public void SetRollUI(RollUIController rollUI)
+    {
+        _rollUI = rollUI;
+    }
+
     public void ResetState()
     {
         StopAllCoroutines();
@@ -583,6 +593,7 @@ public class PlayerMove : MonoBehaviour
         _landingDetected = false;
         _suppressLandSound = false;
 
-        _rollUI?.UpdateRollUI(0f, _rollCooldown);
+        if (_rollUI != null)
+            _rollUI.UpdateRollUI(0f, _rollCooldown);
     }
 }

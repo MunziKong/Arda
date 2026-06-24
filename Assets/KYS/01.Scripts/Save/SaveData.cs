@@ -97,6 +97,7 @@ public class SaveData
 
     // Codex
     public List<MonsterRescueSaveEntry> monsterRescueRecords = new List<MonsterRescueSaveEntry>();
+    public List<string> discoveredMonsterNames = new List<string>();
 
     // Player State
     public int playerHp = -1;

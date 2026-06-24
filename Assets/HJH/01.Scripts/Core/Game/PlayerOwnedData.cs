@@ -24,7 +24,7 @@ public class PlayerOwnedData : MonoBehaviour
     [SerializeField] private List<RecipeData> _unlockedRecipes = new();
 
     [Header("Discovered Monsters")]
-    [SerializeField] private List<MonsterData> _discoveredMonstersList = new();
+    // [SerializeField] private List<MonsterData> _discoveredMonstersList = new();
 
     private HashSet<MonsterData> _discoveredMonsters = new();
     private bool _isCodexUnlocked;
@@ -45,7 +45,8 @@ public class PlayerOwnedData : MonoBehaviour
     private void Awake()
     {
         ResetEnhanceStates();
-        _discoveredMonsters = new HashSet<MonsterData>(_discoveredMonstersList);
+        // _discoveredMonsters = new HashSet<MonsterData>(_discoveredMonstersList);
+        _discoveredMonsters = new HashSet<MonsterData>();
     }
 
     public void ResetEnhanceStates()
@@ -120,7 +121,7 @@ public class PlayerOwnedData : MonoBehaviour
 
         RegisterDiscoveredMonster(monsterData);
 
-        MonsterRescueRecord record = _monsterRescueRecords.Find(r => r.MonsterData == monsterData);
+        MonsterRescueRecord record = _monsterRescueRecords.Find(r => r.MonsterData.monsterName == monsterData.monsterName);
 
         if (record != null)
         {
@@ -138,7 +139,7 @@ public class PlayerOwnedData : MonoBehaviour
 
     public int GetMonsterRescueCount(MonsterData monsterData)
     {
-        MonsterRescueRecord record = _monsterRescueRecords.Find(r => r.MonsterData == monsterData);
+        MonsterRescueRecord record = _monsterRescueRecords.Find(r => r.MonsterData.monsterName == monsterData.monsterName);
         return record != null ? record.Count : 0;
     }
 
@@ -155,7 +156,7 @@ public class PlayerOwnedData : MonoBehaviour
         _monsterRescueRecords.Clear();
         _unlockedRecipes.Clear();
         _discoveredMonsters.Clear();
-        _discoveredMonstersList.Clear();
+        // _discoveredMonstersList.Clear();
         _isCodexUnlocked = false;
     }
 
@@ -181,7 +182,7 @@ public class PlayerOwnedData : MonoBehaviour
         return _unlockedRecipes.Contains(recipe);
     }
 
-    private void RegisterDiscoveredMonster(MonsterData monsterData)
+    public void RegisterDiscoveredMonster(MonsterData monsterData)
     {
         if (monsterData == null || _discoveredMonsters.Contains(monsterData))
         {
@@ -189,7 +190,7 @@ public class PlayerOwnedData : MonoBehaviour
         }
 
         _discoveredMonsters.Add(monsterData);
-        _discoveredMonstersList.Add(monsterData);
+        // _discoveredMonstersList.Add(monsterData);
     }
 
     public void UnlockCodex()
@@ -201,7 +202,7 @@ public class PlayerOwnedData : MonoBehaviour
     {
         if (monster == null || count <= 0) return;
 
-        MonsterRescueRecord existing = _monsterRescueRecords.Find(r => r.MonsterData == monster);
+        MonsterRescueRecord existing = _monsterRescueRecords.Find(r => r.MonsterData.monsterName == monster.monsterName);
         if (existing != null)
         {
             existing.Count = count;
@@ -213,10 +214,5 @@ public class PlayerOwnedData : MonoBehaviour
 
         _totalRescueCount += count;
 
-        if (!_discoveredMonsters.Contains(monster))
-        {
-            _discoveredMonsters.Add(monster);
-            _discoveredMonstersList.Add(monster);
-        }
     }
 }

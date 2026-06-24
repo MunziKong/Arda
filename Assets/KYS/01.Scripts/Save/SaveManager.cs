@@ -184,6 +184,7 @@ public class SaveManager : MonoBehaviour
             Data.monsterRescueRecords = new List<MonsterRescueSaveEntry>();
             foreach (MonsterRescueRecord record in ownedData.MonsterRescueRecords)
             {
+                Debug.Log($"[SaveManager] 저장 레코드: {record.MonsterData?.name} / {record.Count}");
                 if (record.MonsterData != null)
                 {
                     Data.monsterRescueRecords.Add(new MonsterRescueSaveEntry
@@ -193,6 +194,12 @@ public class SaveManager : MonoBehaviour
                     });
                 }
             }
+
+            Data.discoveredMonsterNames = ownedData.DiscoveredMonsters
+                .Where(m => m != null)
+                .Select(m => m.name)
+                .Distinct()
+                .ToList();
         }
 
         // Loadout
@@ -409,6 +416,16 @@ public class SaveManager : MonoBehaviour
                 MonsterData monster = database.GetMonster(entry.monsterName);
                 if (monster != null)
                     ownedData.RestoreMonsterRescueRecord(monster, entry.count);
+            }
+        }
+
+        if (ownedData != null && Data.discoveredMonsterNames != null)
+        {
+            foreach (string monsterName in Data.discoveredMonsterNames.Distinct())
+            {
+                MonsterData monster = database.GetMonster(monsterName);
+                if (monster != null)
+                    ownedData.RegisterDiscoveredMonster(monster);
             }
         }
 

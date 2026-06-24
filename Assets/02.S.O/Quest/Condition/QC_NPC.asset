@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f011b2b1f1789e4b97b50b09f1564f6, type: 3}
   m_Name: QC_NPC
   m_EditorClassIdentifier: Assembly-CSharp::InteractObjectCondition
-  description: "\uCC3D\uC870\uC2E0\uACFC \uB300\uD654"
+  description: "\uCC3D\uC870\uC2E0\uACFC \uB300\uD654 [E]"
   targetObjectId: NPC

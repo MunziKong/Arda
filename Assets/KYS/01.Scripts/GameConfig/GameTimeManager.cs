@@ -13,6 +13,7 @@ public class GameTimeManager : MonoBehaviour
     [SerializeField] private float realSecondsPerGameDay = 1800f;
 
     public float CurrentHour { get; private set; }
+    public float StartHour => startHour;
 
     public UnityEvent<float> OnHourChanged;
 

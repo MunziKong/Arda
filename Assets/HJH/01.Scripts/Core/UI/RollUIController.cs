@@ -7,6 +7,11 @@ public class RollUIController : MonoBehaviour
     [SerializeField] private Image _rollFillImage;
     [SerializeField] private TextMeshProUGUI _rollCooldownTxt;
 
+    private void Awake()
+    {
+        if (_rollFillImage != null) _rollFillImage.fillAmount = 1f;
+        if (_rollCooldownTxt != null) _rollCooldownTxt.gameObject.SetActive(false);
+    }
 
     public void UpdateRollUI(float remaining, float total)
     {

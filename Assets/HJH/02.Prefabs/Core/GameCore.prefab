@@ -7297,7 +7297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ScrollRect
   m_Content: {fileID: 6105943669166152466}
-  m_Horizontal: 1
+  m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
   m_Elasticity: 0.1
@@ -25981,7 +25981,6 @@ MonoBehaviour:
   _fadeImage: {fileID: 2299834549945128883}
   _dialogueText: {fileID: 3756309759253306084}
   _penaltyText: {fileID: 0}
-  _fadeDuration: 1
   _dialogueFadeDuration: 0.5
   _dialogueDisplayDuration: 2
 --- !u!1 &4588401438549776355
