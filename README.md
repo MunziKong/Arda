@@ -136,11 +136,16 @@
 
 * Unity 6
 * C#
-* URP (Universal Render Pipeline)
-* Cinemachine
-* Unity Input System
 
 ---
+## Build
+
+<!-- 빌드 파일 링크 넣는 곳 -->
+<!-- 예시 -->
+<!-- https://your-download-link -->
+<!-- [Download Build](https://github.com//HARAI/raw/main/BuildDownload/Build_v1.02.1.zip) -->
+
+
 
 ## 📌 프로젝트 상태
 
