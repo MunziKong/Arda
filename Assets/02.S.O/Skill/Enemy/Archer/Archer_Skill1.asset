@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b26284d7c686054693fd9611eb2eee8, type: 3}
+  m_Name: Archer_Skill1
+  m_EditorClassIdentifier: Assembly-CSharp::SkillDefinition
+  skillId: Archer_Skill1
+  skillName: 
+  description: 
+  cooldown: 30
+  targetType: 2
+  animationIndex: 0
+  actionDirectionMode: 0
+  weaponType: 0
+  skillIcon: {fileID: 0}
+  aimMode: 0
+  aimRadius: 0
+  aimDistance: 0
+  startEffects:
+  - effect: {fileID: 11400000, guid: 8bd144fd130e3914da41ac521672d61d, type: 2}
+    multipliers:
+    - 1.4
+    - 2
+    - 1
+  applyEffects:
+  - effect: {fileID: 11400000, guid: 2153bc396f75fc545945f50b6c8904ed, type: 2}
+    multipliers:
+    - 3
+    - 0
+    - 1.1
+    - 1
+  - effect: {fileID: 11400000, guid: 99f452f0747bf1c4db0627595db5773b, type: 2}
+    multipliers:
+    - 1
+    - 2.5
+    - 2
+    - 1.5
+    - 1
+  prefabs:
+  - type: 1
+    prefab: {fileID: 3188349670437276300, guid: 20495b1f733d05e48ae4cfca6c863659, type: 3}
+  - type: 2
+    prefab: {fileID: 2457285412779223385, guid: c8b0ea0c5b17ae44c822ed3d10b9b96c, type: 3}
+  weaponSlotIndex: 0
+  startSfx:
+    clip: {fileID: 0}
+    pitch: 1
+    volume: 1
+  applySfx:
+    clip: {fileID: 0}
+    pitch: 1
+    volume: 1

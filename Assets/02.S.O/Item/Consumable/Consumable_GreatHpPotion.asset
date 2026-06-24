@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e2a72ef4bf585046bb321f2599eaf82, type: 3}
+  m_Name: Consumable_GreatHpPotion
+  m_EditorClassIdentifier: Assembly-CSharp::ConsumableItemDefinition
+  _itemId: Consumable_GreatHpPotion
+  _itemName: "\uC0C1\uAE09 HP \uD3EC\uC158"
+  _description: "\uCCB4\uB825\uC744 \uB300\uB7C9 \uD68C\uBCF5\uC2DC\uCF1C\uC8FC\uB294
+    \uD3EC\uC158."
+  _icon: {fileID: 21300000, guid: 3f9c351cc07e5b64c9dec15e2855fd39, type: 3}
+  _maxStack: 999
+  _consumableType: 0
+  _value: 30

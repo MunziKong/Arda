@@ -1,0 +1,3 @@
+repository "Arda_Project/Arda_v1@14569757694917@cloud"
+  path "/"
+    smartbranch "/main"

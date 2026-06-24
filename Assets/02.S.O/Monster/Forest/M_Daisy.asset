@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b762cf0461ea74b936ae840e32b3df, type: 3}
+  m_Name: M_Daisy
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterData
+  monsterName: "\uB370\uC774\uC9C0"
+  icon: {fileID: 21300000, guid: b64c96de858a34047aa674426fe29cba, type: 3}
+  description: "\uC232\uC744 \uD63C\uC790 \uB3CC\uC544\uB2E4\uB2C8\uB294 \uB178\uB780
+    \uAF43\uBD09\uC624\uB9AC \uC815\uB839.\n\uD50C\uB808\uC774\uC5B4\uB97C \uBC1C\uACAC\uD558\uBA74
+    \uAC00\uC7A5 \uBA3C\uC800 \uB2E4\uAC00\uC624\uB294 \uBD99\uC784\uC131 \uC88B\uC740
+    \uC544\uC774\uB2E4.\n\uBC24\uB0AE\uC744 \uAC00\uB9AC\uC9C0 \uC54A\uACE0 \uC232
+    \uACF3\uACF3\uC744 \uD65C\uBC1C\uD558\uAC8C \uB3CC\uC544\uB2E4\uB2CC\uB2E4."
+  grade: 0
+  type: 0
+  alwaysSpawn: 1
+  spawnStartHour: 0
+  spawnEndHour: 0
+  requiredItems: []
+  dropTable:
+  - item: {fileID: 11400000, guid: 1e9f8343ea374bf4e924e1091364d8b0, type: 2}
+    dropChance: 1
+    minQuantity: 1
+    maxQuantity: 3
+  - item: {fileID: 11400000, guid: c7f841a41e3a5f14786b1002824c9623, type: 2}
+    dropChance: 0.5
+    minQuantity: 1
+    maxQuantity: 2
+  productionSpeedMultiplier: 1
+  craftingSpeedMultiplier: 1

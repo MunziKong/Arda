@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b26284d7c686054693fd9611eb2eee8, type: 3}
+  m_Name: Sword_Slam
+  m_EditorClassIdentifier: Assembly-CSharp::SkillDefinition
+  skillId: Sword_Slam
+  skillName: "\uC18C\uB4DC \uC2AC\uB7A8"
+  description: "\uC2DC\uC804\uC790 \uAE30\uC900\uC73C\uB85C \uC77C\uC815 \uBC94\uC704
+    \uB0B4\uC5D0 \uC788\uB294 \uC801\uC5D0\uAC8C \uB370\uBBF8\uC9C0\uB97C \uC785\uD788\uB294
+    \uC2A4\uD0AC"
+  cooldown: 15
+  targetType: 0
+  animationIndex: 4
+  actionDirectionMode: 0
+  weaponType: 0
+  skillIcon: {fileID: 21300000, guid: 56aeb6aac8dcd8c4a8c83ac3b13fb7c5, type: 3}
+  aimMode: 0
+  aimRadius: 3
+  aimDistance: 0
+  startEffects: []
+  applyEffects:
+  - effect: {fileID: 11400000, guid: 99f452f0747bf1c4db0627595db5773b, type: 2}
+    multipliers:
+    - 1.2
+    - 3
+    - 1.5
+  prefabs:
+  - type: 2
+    prefab: {fileID: 6581819978879567992, guid: 56314302e6a511f48b2abacdaacb78c3, type: 3}
+  weaponSlotIndex: 0
+  startSfx:
+    clip: {fileID: 0}
+    pitch: 1
+    volume: 1
+  applySfx:
+    clip: {fileID: 8300000, guid: ee4fb5086e439be408f21430424f8e5c, type: 3}
+    pitch: 1
+    volume: 1

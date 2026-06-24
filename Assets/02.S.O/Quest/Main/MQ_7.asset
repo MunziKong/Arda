@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ab0e00876e1694b90726e8f8183999, type: 3}
+  m_Name: MQ_7
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questId: 7
+  questName: "7. \uBE5B\uB098\uB294 \uC0BC\uD615\uC81C"
+  startDialogues:
+  - "\uBC24\uC5D0\uB9CC \uC232\uC5D0\uC11C \uBCF4\uC774\uB294, \uBE5B\uB098\uB294
+    \uC815\uB839 \uC0BC\uD615\uC81C\uB4E4 \uBCF8 \uC801 \uC788\uC5B4?"
+  - "\uBE5B\uC744 \uB0B4\uBA74\uC11C \uB3CC\uC544\uB2E4\uB2C8\uB2E4 \uBCF4\uB2C8
+    \uC778\uAC04\uB4E4 \uB208\uC5D0 \uB108\uBB34 \uC798 \uB744\uC5B4. \uADF8\uB798\uC11C\uC778\uC9C0
+    \uC694\uC998 \uB4E4\uC5B4 \uC0AC\uB0E5\uB2F9\uD558\uB294 \uBE48\uB3C4\uAC00 \uBD80\uCA4D
+    \uB298\uC5C8\uC5B4."
+  - "\uC0AC\uB0E5\uB2F9\uD558\uACE0 \uC788\uB294 \uADF8 \uCE5C\uAD6C\uB4E4, \uAC00\uC11C
+    \uAD6C\uD574\uC918."
+  inProgressDialogues:
+  - "\uC14B \uB2E4 \uC131\uACA9\uC774 \uC644\uC804\uD788 \uB2EC\uB77C. \uADF8\uB7EC\uB2C8\uAE4C
+    \uAC01\uC790 \uC131\uACA9\uC5D0 \uB9DE\uCDB0\uC11C \uC870\uC2EC\uC2A4\uB7FD\uAC8C
+    \uB2E4\uAC00\uAC00\uC57C \uD574."
+  - "\uC131\uAE09\uD558\uAC8C \uAD74\uBA74 \uB3C4\uB9DD\uAC00\uBC84\uB9B4\uAC78."
+  conditions:
+  - {fileID: 11400000, guid: 4d2bd39fe7474284a91fb3a31e02799c, type: 2}
+  - {fileID: 11400000, guid: 1865c1b1e9e80d34888d7f3356a031c7, type: 2}
+  - {fileID: 11400000, guid: fa855c507d165b44c88538f6be04fbcf, type: 2}
+  completionMode: 1
+  completeDialogues:
+  - "\uC0BC\uD615\uC81C\uB4E4\uC774 \uAD6C\uC870\uB410\uC73C\uB2C8 \uB2E4\uD589\uC774\uAE34
+    \uD55C\uB370, \uC774\uAC78\uB85C \uB05D\uB09C \uAC8C \uC544\uB2C8\uC57C."
+  - "\uC544\uC9C1\uB3C4 \uC0AC\uB0E5\uB2F9\uD558\uACE0 \uC788\uB294 \uCE5C\uAD6C\uB4E4\uC774
+    \uD6E8\uC52C \uB9CE\uC544. \uAD6C\uC870 \uC791\uC5C5, \uACC4\uC18D\uD574\uC918."
+  acceptAtPortalOnly: 0
+  suppressNamePopup: 0
+  rewards:
+  - item: {fileID: 11400000, guid: 898de5fbf11a7084b9bd9155477716c4, type: 2}
+    quantity: 10000
+  - item: {fileID: 11400000, guid: c7f841a41e3a5f14786b1002824c9623, type: 2}
+    quantity: 10
+  nextQuest: {fileID: 11400000, guid: 121b7761bd73e524f92aa49802778176, type: 2}

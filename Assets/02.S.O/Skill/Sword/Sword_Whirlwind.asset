@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b26284d7c686054693fd9611eb2eee8, type: 3}
+  m_Name: Sword_Whirlwind
+  m_EditorClassIdentifier: Assembly-CSharp::SkillDefinition
+  skillId: Sword_Whirlwind
+  skillName: "\uD720\uC708\uB4DC"
+  description: "\uC2DC\uC804\uC790\uAC00 \uC77C\uC815 \uC2DC\uAC04\uB3D9\uC548 \uD68C\uC804\uD558\uBA70
+    \uACF5\uACA9\uD558\uB294 \uC2A4\uD0AC"
+  cooldown: 10
+  targetType: 0
+  animationIndex: 0
+  actionDirectionMode: 1
+  weaponType: 0
+  skillIcon: {fileID: 21300000, guid: d79961395bac8fe479361ba427a2967f, type: 3}
+  aimMode: 0
+  aimRadius: 0
+  aimDistance: 0
+  startEffects:
+  - effect: {fileID: 11400000, guid: 61c33e8d0f38f634385763dd78b1fe41, type: 2}
+    multipliers: []
+  applyEffects:
+  - effect: {fileID: 11400000, guid: f9ec567b7fc47a2478b4b2b871a2dd50, type: 2}
+    multipliers:
+    - 1
+    - 0.8
+  prefabs: []
+  weaponSlotIndex: 0
+  startSfx:
+    clip: {fileID: 0}
+    pitch: 1
+    volume: 1
+  applySfx:
+    clip: {fileID: 8300000, guid: 2560d27dfb3698d41a3b815862265ffd, type: 3}
+    pitch: 1
+    volume: 1

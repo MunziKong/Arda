@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86d693261f8455246a6dbe7da327c7b8, type: 3}
+  m_Name: Item_Beeswax
+  m_EditorClassIdentifier: Assembly-CSharp::MaterialItemData
+  _itemId: Item_Beeswax
+  _itemName: "\uBC00\uB78D"
+  _description: "\uAFC0\uBCF4\uB2E4 \uC815\uC81C\uD558\uAE30 \uAE4C\uB2E4\uB85C\uC6B4
+    \uADC0\uD55C \uC790\uC6D0. \uB2E8\uB2E8\uD558\uBA74\uC11C\uB3C4 \uB9E4\uB048\uD55C
+    \uC9C8\uAC10\uC744 \uC9C0\uB154\uB2E4."
+  _icon: {fileID: 21300000, guid: 1506d412d39d185488edbcf3399a4169, type: 3}
+  _maxStack: 999

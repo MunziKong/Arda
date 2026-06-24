@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ab0e00876e1694b90726e8f8183999, type: 3}
+  m_Name: MQ_5
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questId: 5
+  questName: "5. \uCE68\uC785\uC790 \uC18C\uD0D5 "
+  startDialogues:
+  - "\uC694\uC998 \uB4E4\uC5B4 \uC778\uAC04\uB4E4\uC774 \uC810\uC810 \uB354 \uB9CE\uC774
+    \uB118\uC5B4\uC624\uB294 \uAC83 \uAC19\uC544."
+  - "\uBAAC\uC2A4\uD130\uB4E4 \uAD6C\uC870\uD558\uB294 \uAC83\uB3C4 \uC911\uC694\uD558\uC9C0\uB9CC,
+    \uC778\uAC04\uB4E4\uB3C4 \uAFB8\uC900\uD788 \uB0B4\uCAD3\uC544\uC918\uC57C \uD574."
+  - "\uC774\uBC88\uC5D4 \uAE30\uC0AC\uB791 \uB4DC\uB8E8\uC774\uB4DC, \uAC01\uAC01
+    \uC138 \uBA85\uC529 \uCC98\uCE58\uD558\uACE0 \uC640."
+  inProgressDialogues:
+  - "\uC804\uD22C\uAC00 \uD798\uB4E4\uBA74 \uBB34\uAE30\uB97C \uAC15\uD654\uD558\uAC70\uB098
+    \uC2A4\uD0AC\uC744 \uD574\uAE08\uD574\uBD10. "
+  - "\uC544\uC9C1 \uACE0\uD1B5\uBC1B\uB294 \uBAAC\uC2A4\uD130\uB4E4\uC774 \uB9CE\uC544.
+    \uC5B4\uC11C \uC6C0\uC9C1\uC5EC."
+  conditions:
+  - {fileID: 11400000, guid: 1ebc71b748b75cb4baa6c27b2c536876, type: 2}
+  - {fileID: 11400000, guid: 503fb18928cf9d547949c18afa1d39e6, type: 2}
+  completionMode: 1
+  completeDialogues:
+  - "\uC774\uAC78\uB85C \uC548\uC2EC\uD560 \uC218\uB294 \uC5C6\uC5B4. \uC778\uAC04\uB4E4\uC740
+    \uACC4\uC18D \uB118\uC5B4\uC62C \uD14C\uB2C8\uAE4C."
+  - "\uADF8\uB798\uB3C4... \uB098\uC058\uC9C0 \uC54A\uC558\uC5B4."
+  - "\uC774\uC81C \uAD6C\uC870\uC5D0 \uBC15\uCC28\uB97C \uAC00\uD574\uB3C4 \uB418\uACA0\uC5B4.
+    \uB2E4\uC2DC \uD55C\uBC88 \uB9D0\uC744 \uAC78\uC5B4\uBD10."
+  acceptAtPortalOnly: 0
+  suppressNamePopup: 0
+  rewards:
+  - item: {fileID: 11400000, guid: 898de5fbf11a7084b9bd9155477716c4, type: 2}
+    quantity: 5000
+  - item: {fileID: 11400000, guid: dae37e65d527eff4ca4e5633ac97d883, type: 2}
+    quantity: 1
+  nextQuest: {fileID: 11400000, guid: b8ae16114b64f854586add17498b911f, type: 2}

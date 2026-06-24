@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ab0e00876e1694b90726e8f8183999, type: 3}
+  m_Name: MQ_6
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questId: 6
+  questName: "6. \uB354 \uB098\uC740 \uC7A5\uBE44"
+  startDialogues:
+  - "\uC0C1\uC810\uC5D0 \uD30C\uB294 \uB808\uC2DC\uD53C, \uAD6C\uB9E4\uD574\uBD24\uC5B4?"
+  - "\uC774\uC81C\uBD80\uD130\uB294 \uD544\uC694\uD55C \uC7AC\uB8CC\uB9CC \uC788\uC73C\uBA74
+    \uB354 \uC88B\uC740 \uAD6C\uC870 \uD0A4\uD2B8\uB97C \uC81C\uC791\uD560 \uC218
+    \uC788\uC5B4."
+  - "\uC606\uC5D0 \uC788\uB294 \uC81C\uB2E8\uC744 \uD655\uC778\uD574\uBD10."
+  - "\uB354 \uC88B\uC740 \uC7A5\uBE44\uB3C4 \uC788\uACA0\uB2E4, \uB098\uAC00\uC11C
+    \uD558\uC774\uBE44\uB77C\uB294 \uCE5C\uAD6C\uB97C \uB3C4\uC640\uC918."
+  inProgressDialogues:
+  - "\uD558\uC774\uBE44\uB294 \uBC8C\uC9D1 \uBAA8\uC591 \uBAAC\uC2A4\uD130\uC57C."
+  - "\uC88B\uC740 \uAD6C\uC870 \uD0A4\uD2B8\uB97C \uCC59\uACA8\uAC00\uBA74 \uC27D\uAC8C
+    \uAD6C\uC870\uD560 \uC218 \uC788\uC5B4."
+  conditions:
+  - {fileID: 11400000, guid: f14508af70bb2254d9ac5dba36972e2a, type: 2}
+  completionMode: 1
+  completeDialogues:
+  - "\uAD6C\uC870\uD558\uAE30 \uD798\uB4E0 \uCE5C\uAD6C\uB4E4\uC774 \uC788\uB2E4\uBA74,
+    \uB354 \uC88B\uC740 \uD0A4\uD2B8\uB97C \uC81C\uC791\uD574\uC11C \uCC59\uACA8\uAC00\uBD10.
+    \uC7AC\uB8CC\uB9CC \uC788\uC73C\uBA74 \uC5B8\uC81C\uB4E0 \uB9CC\uB4E4 \uC218
+    \uC788\uC73C\uB2C8\uAE4C."
+  - "\uD56D\uC0C1 \uAE30\uC5B5\uD574. \uB124 \uBAA9\uD45C\uB294 \uC774 \uC138\uACC4\uC5D0\uC11C
+    \uACE0\uD1B5\uBC1B\uB294 \uCE5C\uAD6C\uB4E4\uC744 \uAD6C\uD574\uC8FC\uB294 \uAC70\uC57C.
+    \uADF8\uAC70 \uD558\uB098\uB9CC \uC78A\uC9C0 \uC54A\uC73C\uBA74 \uB3FC."
+  acceptAtPortalOnly: 0
+  suppressNamePopup: 0
+  rewards:
+  - item: {fileID: 11400000, guid: 898de5fbf11a7084b9bd9155477716c4, type: 2}
+    quantity: 8000
+  - item: {fileID: 11400000, guid: eaf5a78be6536324db541fb60719a7f5, type: 2}
+    quantity: 5
+  nextQuest: {fileID: 11400000, guid: 0329c6efaa5c2f045b2607b8c9937a7c, type: 2}

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b762cf0461ea74b936ae840e32b3df, type: 3}
+  m_Name: M_Astra
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterData
+  monsterName: "\uC544\uC2A4\uD2B8\uB77C"
+  icon: {fileID: 21300000, guid: 06d12d2dcdce71249a1c2729d618784c, type: 3}
+  description: "\uC232 \uAE4A\uC740 \uACF3\uC5D0\uC11C \uD640\uB85C \uB5A0\uB3C4\uB294
+    \uC2E0\uBE44\uB85C\uC6B4 \uC815\uB839.\n\uBA38\uB9AC \uC704\uB85C \uBE5B\uB098\uB294
+    \uC655\uAD00\uACFC \uD6C4\uAD11\uC744 \uB450\uB974\uACE0 \uC788\uC5B4, \uB9C8\uC8FC\uCE5C
+    \uC774\uB4E4\uC740 \uBC1C\uAC78\uC74C\uC744 \uBA48\uCD94\uAC8C \uB41C\uB2E4.\n\uD50C\uB808\uC774\uC5B4\uAC00
+    \uACC1\uC5D0 \uC788\uC5B4\uB3C4 \uC804\uD600 \uAC1C\uC758\uCE58 \uC54A\uACE0
+    \uC81C \uAC08 \uAE38\uC744 \uAC08 \uBFD0\uC774\uB2E4.\n\uBC24\uC774 \uB418\uC5B4\uC57C\uB9CC
+    \uBAA8\uC2B5\uC744 \uB4DC\uB7EC\uB0B4\uBA70, \uADF8 \uC874\uC7AC\uB97C \uBAA9\uACA9\uD55C
+    \uAC83\uB9CC\uC73C\uB85C\uB3C4 \uD589\uC6B4\uC774 \uCC3E\uC544\uC628\uB2E4\uB294
+    \uC804\uC124\uC774 \uC804\uD574\uC9C4\uB2E4."
+  grade: 2
+  type: 1
+  alwaysSpawn: 0
+  spawnStartHour: 22
+  spawnEndHour: 4
+  requiredItems: []
+  dropTable:
+  - item: {fileID: 11400000, guid: 1e9f8343ea374bf4e924e1091364d8b0, type: 2}
+    dropChance: 1
+    minQuantity: 5
+    maxQuantity: 10
+  - item: {fileID: 11400000, guid: c7f841a41e3a5f14786b1002824c9623, type: 2}
+    dropChance: 0.5
+    minQuantity: 4
+    maxQuantity: 6
+  - item: {fileID: 11400000, guid: dae37e65d527eff4ca4e5633ac97d883, type: 2}
+    dropChance: 0.25
+    minQuantity: 1
+    maxQuantity: 2
+  productionSpeedMultiplier: 1
+  craftingSpeedMultiplier: 1

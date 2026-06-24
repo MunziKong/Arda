@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b26284d7c686054693fd9611eb2eee8, type: 3}
+  m_Name: Druid_Skill2
+  m_EditorClassIdentifier: Assembly-CSharp::SkillDefinition
+  skillId: Druid_Skill2
+  skillName: 
+  cooldown: 20
+  targetType: 2
+  animationIndex: 0
+  actionDirectionMode: 0
+  weaponType: 0
+  skillIcon: {fileID: 0}
+  aimMode: 0
+  aimRadius: 0
+  aimDistance: 0
+  startEffects:
+  - effect: {fileID: 11400000, guid: 8bd144fd130e3914da41ac521672d61d, type: 2}
+    multipliers:
+    - 2
+    - 2
+    - 1
+  applyEffects:
+  - effect: {fileID: 11400000, guid: 2153bc396f75fc545945f50b6c8904ed, type: 2}
+    multipliers:
+    - 2.5
+    - 0
+    - 0.4
+  - effect: {fileID: 11400000, guid: 6098039300ec24540b44f08bbac437e9, type: 2}
+    multipliers:
+    - 2
+    - 2
+  prefabs:
+  - type: 1
+    prefab: {fileID: 3188349670437276300, guid: 20495b1f733d05e48ae4cfca6c863659, type: 3}
+  - type: 2
+    prefab: {fileID: 1663664498521944, guid: 6105e89f9bbb4894eb05adc2a8658637, type: 3}
+  weaponSlotIndex: 0
+  sfx: {fileID: 0}

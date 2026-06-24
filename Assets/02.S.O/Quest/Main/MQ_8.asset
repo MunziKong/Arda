@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ab0e00876e1694b90726e8f8183999, type: 3}
+  m_Name: MQ_8
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questId: 8
+  questName: "8. \uB450 \uBC88\uC9F8 \uC18C\uD0D5"
+  startDialogues:
+  - "\uAD6C\uC870\uB9CC \uD558\uB2E4 \uBCF4\uBA74 \uC778\uAC04\uB4E4\uC774 \uC790\uAFB8
+    \uBE48\uD2C8\uC744 \uBCF4\uACE0 \uB4E4\uC5B4\uC640. \uAC00\uB054\uC740 \uBCF8\uBCF4\uAE30\uAC00
+    \uD544\uC694\uD574."
+  - "\uC774\uBC88\uC5D4 \uB3C4\uC801\uC774\uB791 \uAD81\uC218, \uAC01\uAC01 \uB2E4\uC12F
+    \uBA85\uC529 \uCC98\uCE58\uD558\uACE0 \uC640."
+  - "\uB3C4\uC801\uC740 \uB3C5\uC744 \uC0AC\uC6A9\uD558\uB294 \uB188\uB4E4\uC774\uACE0,
+    \uAD81\uC218\uB294 \uBA40\uB9AC\uC11C \uADC0\uCC2E\uAC8C \uC3F4\uB300\uB294 \uB188\uB4E4\uC774\uC57C.
+    \uB458 \uB2E4 \uC131\uAC00\uC2DC\uC9C0\uB9CC \uBABB \uC7A1\uC744 \uC815\uB3C4\uB294
+    \uC544\uB2C8\uC57C."
+  inProgressDialogues:
+  - "\uB3C4\uC801\uC758 \uB3C5 \uC5F0\uB9C9\uC744 \uC870\uC2EC\uD574.\_\uAD81\uC218\uB294
+    \uAC70\uB9AC\uB97C \uC881\uD788\uAE30 \uC804\uAE4C\uC9C0\uAC00 \uC704\uD5D8\uD558\uB2C8\uAE4C
+    \uBE60\uB974\uAC8C \uBD99\uB294 \uAC8C \uB098\uC744 \uAC70\uC57C."
+  - "\uD798\uB4E4\uBA74 \uAC15\uD654\uB098 \uC2A4\uD0AC \uBA3C\uC800 \uC810\uAC80\uD574\uBCF4\uACE0."
+  conditions:
+  - {fileID: 11400000, guid: 7b4249c835f41424dad5b74800196ee2, type: 2}
+  - {fileID: 11400000, guid: 4bb41349e7158b5448946a7457e0d1c7, type: 2}
+  completionMode: 1
+  completeDialogues:
+  - "\uC5F4 \uBA85\uC774\uB098 \uCC98\uB9AC\uD588\uB124. \uB098\uC058\uC9C0 \uC54A\uC544."
+  - "\uC774 \uC815\uB3C4\uBA74 \uC778\uAC04\uB4E4\uB3C4 \uB2F9\uBD84\uAC04\uC740
+    \uC880 \uC870\uC2EC\uC2A4\uB7EC\uC6CC\uC9C0\uACA0\uC9C0. \uBB3C\uB860 \uC624\uB798\uAC00\uC9C4
+    \uC54A\uACA0\uC9C0\uB9CC."
+  - "\uC218\uACE0\uD588\uC5B4. \uC7A0\uAE50 \uC228 \uACE0\uB974\uACE0, \uB2E4\uC2DC
+    \uC6C0\uC9C1\uC774\uC790."
+  acceptAtPortalOnly: 0
+  suppressNamePopup: 0
+  rewards:
+  - item: {fileID: 11400000, guid: 898de5fbf11a7084b9bd9155477716c4, type: 2}
+    quantity: 10000
+  - item: {fileID: 11400000, guid: dae37e65d527eff4ca4e5633ac97d883, type: 2}
+    quantity: 1
+  nextQuest: {fileID: 11400000, guid: f43472fdd6f04a34280bf0f03a547f66, type: 2}

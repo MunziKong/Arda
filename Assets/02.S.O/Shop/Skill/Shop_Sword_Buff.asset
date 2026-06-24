@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb83debe15e9a741a64c8dcb4a987a5, type: 3}
+  m_Name: Shop_Sword_Buff
+  m_EditorClassIdentifier: Assembly-CSharp::ShopItemEntry
+  category: 0
+  skillItem: {fileID: 11400000, guid: 72d22025403c8cc4b99bcc88512cb722, type: 2}
+  consumableItem: {fileID: 0}
+  rescueItem: {fileID: 0}
+  recipeItem: {fileID: 0}
+  skinItem: {fileID: 0}
+  price:
+  - item: {fileID: 11400000, guid: 898de5fbf11a7084b9bd9155477716c4, type: 2}
+    amount: 2000
+  - item: {fileID: 11400000, guid: eaf5a78be6536324db541fb60719a7f5, type: 2}
+    amount: 3
+  conditionType: 1
+  conditionWeapon: {fileID: 11400000, guid: c057cac010da3b14d9de4f9d5e18f2ea, type: 2}
+  conditionValue: 2

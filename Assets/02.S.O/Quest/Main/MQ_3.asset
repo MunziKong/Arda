@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ab0e00876e1694b90726e8f8183999, type: 3}
+  m_Name: MQ_3
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questId: 3
+  questName: "3. \uCCAB \uAD6C\uC870"
+  startDialogues:
+  - "\uC55E\uC73C\uB85C \uB108\uB294 \uC774 \uD3EC\uD0C8\uC744 \uAC00\uC7A5 \uB9CE\uC774
+    \uC4F0\uAC8C \uB420 \uAC70\uC57C."
+  - "\uC9C0\uAE08\uC740 \uC232\uBC16\uC5D0 \uC5C6\uC9C0\uB9CC, \uC810\uC810 \uAC08
+    \uC218 \uC788\uB294 \uACF3\uC774 \uB298\uC5B4\uB0A0 \uAC70\uC57C."
+  - "\uC790, \uC774\uC81C\uBD80\uD130 \uBCF8\uACA9\uC801\uC73C\uB85C \uAD6C\uC870\uB97C
+    \uC2DC\uC791\uD574\uBCF4\uC790."
+  - "\uD3EC\uD0C8\uC744 \uD0C0\uACE0 \uB118\uC5B4\uAC00\uC11C \uB370\uC774\uC9C0\uB77C\uB294
+    \uBAAC\uC2A4\uD130 \uB2E4\uC12F \uB9C8\uB9AC\uB97C \uAD6C\uC870\uD574\uC640."
+  inProgressDialogues:
+  - "\uC5BC\uB978 \uC548\uB098\uAC00\uACE0 \uBB50 \uD574. "
+  - "\uB370\uC774\uC9C0\uB294 \uC232\uC5D0 \uAC00\uBA74 \uD56D\uC0C1 \uBCFC \uC218
+    \uC788\uB294 \uC791\uC740 \uB178\uB780 \uC815\uB839\uB4E4\uC774\uC57C."
+  conditions:
+  - {fileID: 11400000, guid: ab5ea9cc9eb7dad41b39e15ca39d9a93, type: 2}
+  completionMode: 1
+  completeDialogues:
+  - "\uC774\uB807\uAC8C \uAE08\uBC29 \uC131\uACF5\uD560 \uAC70\uB77C\uACE0\uB294
+    \uC0DD\uAC01 \uBABB \uD588\uB294\uB370."
+  - "...\uB098\uC058\uC9C0 \uC54A\uB124. \uC88B\uC544."
+  - "\uAD6C\uC870\uD558\uBA74\uC11C \uB108\uB3C4 \uBD24\uACA0\uC9C0\uB9CC, \uBAAC\uC2A4\uD130\uB4E4\uC740
+    \uAD6C\uC870\uB420 \uB54C \uAC00\uB054 \uC544\uC774\uD15C\uC744 \uB5A8\uC5B4\uB728\uB824.
+    \uAC00\uBC29\uC744 \uC5F4\uC5B4\uBCF4\uBA74 \uADF8\uB3D9\uC548 \uD68D\uB4DD\uD55C
+    \uC544\uC774\uD15C\uB4E4\uC744 \uD655\uC778\uD560 \uC218 \uC788\uC744 \uAC70\uC57C."
+  - "\uC4F8 \uB9CC\uD55C \uAC83\uB3C4 \uC788\uACE0, \uB2F9\uC7A5\uC740 \uC798 \uBAA8\uB974\uACA0\uB294
+    \uAC83\uB3C4 \uC788\uACA0\uC9C0\uB9CC \uCC28\uCC28 \uB2E4 \uC4F8 \uB370\uAC00
+    \uC788\uC744 \uAC70\uC57C."
+  - "\uC790, \uC774\uC81C \uC0C8\uB85C\uC6B4 \uAE30\uB2A5\uB4E4\uC744 \uC5F4\uC5B4\uC904\uAC8C.
+    \uB098\uD55C\uD14C \uB2E4\uC2DC \uB9D0\uC744 \uAC78\uC5B4\uBD10."
+  acceptAtPortalOnly: 1
+  suppressNamePopup: 0
+  rewards:
+  - item: {fileID: 11400000, guid: 898de5fbf11a7084b9bd9155477716c4, type: 2}
+    quantity: 3000
+  - item: {fileID: 11400000, guid: c7f841a41e3a5f14786b1002824c9623, type: 2}
+    quantity: 3
+  nextQuest: {fileID: 11400000, guid: e3ccf50bfa0059345aa72282b82ac2f6, type: 2}

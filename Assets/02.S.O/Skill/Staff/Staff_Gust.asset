@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b26284d7c686054693fd9611eb2eee8, type: 3}
+  m_Name: Staff_Gust
+  m_EditorClassIdentifier: Assembly-CSharp::SkillDefinition
+  skillId: Staff_Gust
+  skillName: "\uB3CC\uD48D"
+  description: "\uC801\uC744 \uAD00\uD1B5\uD558\uB294 \uAC15\uB825\uD55C \uBC14\uB78C\uB97C
+    \uBC1C\uC0AC\uD558\uB294 \uC2A4\uD0AC"
+  cooldown: 8
+  targetType: 0
+  animationIndex: 0
+  actionDirectionMode: 0
+  weaponType: 1
+  skillIcon: {fileID: 21300000, guid: 683eb6521a092744d8b70acf42a136f4, type: 3}
+  aimMode: 1
+  aimRadius: 0
+  aimDistance: 20
+  startEffects: []
+  applyEffects:
+  - effect: {fileID: 11400000, guid: f4cddea154151ce44bfb3a8e7ef6f050, type: 2}
+    multipliers:
+    - 1
+    - 8
+    - 3
+  prefabs:
+  - type: 0
+    prefab: {fileID: 1746672929845058, guid: 223c842fad4ee074298e327a6129797a, type: 3}
+  weaponSlotIndex: 0
+  startSfx:
+    clip: {fileID: 0}
+    pitch: 1
+    volume: 1
+  applySfx:
+    clip: {fileID: 8300000, guid: ed285ceca4bf5de4fa53c99ee6860ca1, type: 3}
+    pitch: 1
+    volume: 0.5

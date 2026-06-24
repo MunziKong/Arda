@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a883753fbf7caf5479a1f1f29fc761e4, type: 3}
+  m_Name: Sword_BaseCombo
+  m_EditorClassIdentifier: Assembly-CSharp::AttackComboData
+  _attackId: Sword_BaseCombo
+  _weaponType: 0
+  _attackName: "\uAE30\uBCF8 \uACF5\uACA9"
+  _attackIcon: {fileID: 21300000, guid: ea5d9aa3689141f4da41f072b5dd4d64, type: 3}
+  _animationIndex: 0
+  _attackSteps:
+  - _attackType: 0
+    _damageMultiplier: 1
+    _useMove: 1
+    _moveSpeed: 3
+    _moveDuration: 0.2
+    _directionMode: 1
+    _hitDuration: 0.3
+    _projectilePrefab: {fileID: 0}
+    _projectileCount: 1
+    _projectileInterval: 0.1
+    _projectileSpeed: 10
+    _projectileLifeTime: 3
+    _spreadAngle: 0
+    _sfxClip: {fileID: 8300000, guid: 0b2164887be6aba4a9a6e338fd6158bf, type: 3}
+    _sfxVolume: 1
+  - _attackType: 0
+    _damageMultiplier: 1.2
+    _useMove: 1
+    _moveSpeed: 6
+    _moveDuration: 0.2
+    _directionMode: 1
+    _hitDuration: 0.3
+    _projectilePrefab: {fileID: 0}
+    _projectileCount: 1
+    _projectileInterval: 0.1
+    _projectileSpeed: 10
+    _projectileLifeTime: 3
+    _spreadAngle: 0
+    _sfxClip: {fileID: 8300000, guid: 0b2164887be6aba4a9a6e338fd6158bf, type: 3}
+    _sfxVolume: 1
+  - _attackType: 0
+    _damageMultiplier: 1.5
+    _useMove: 1
+    _moveSpeed: 4
+    _moveDuration: 0.2
+    _directionMode: 1
+    _hitDuration: 0.2
+    _projectilePrefab: {fileID: 0}
+    _projectileCount: 1
+    _projectileInterval: 0.1
+    _projectileSpeed: 10
+    _projectileLifeTime: 3
+    _spreadAngle: 0
+    _sfxClip: {fileID: 8300000, guid: 0b2164887be6aba4a9a6e338fd6158bf, type: 3}
+    _sfxVolume: 1

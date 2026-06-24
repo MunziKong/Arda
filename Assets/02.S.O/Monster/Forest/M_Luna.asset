@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b762cf0461ea74b936ae840e32b3df, type: 3}
+  m_Name: M_Luna
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterData
+  monsterName: "\uB8E8\uB098"
+  icon: {fileID: 21300000, guid: a765ab69053c60d46bca6a8e73ae8a4c, type: 3}
+  description: "\uC232\uC744 \uD63C\uC790 \uB3CC\uC544\uB2E4\uB2C8\uB294 \uCCAD\uB85D\uBE5B
+    \uBB3C\uBC29\uC6B8 \uC815\uB839.\n\uD50C\uB808\uC774\uC5B4\uAC00 \uBC14\uB85C
+    \uC606\uC744 \uC9C0\uB098\uCCD0\uB3C4 \uB208\uAE38 \uD55C\uBC88 \uC8FC\uC9C0
+    \uC54A\uB294\uB2E4.\n\uBC24\uC774 \uB418\uC5B4\uC57C\uB9CC \uBAA8\uC2B5\uC744
+    \uB4DC\uB7EC\uB0B4\uBA70, \uC5B4\uB450\uC6B4 \uC232\uC18D\uC744 \uD640\uB85C
+    \uC720\uC720\uD788 \uB5A0\uB3CC\uC544\uB2E4\uB2CC\uB2E4."
+  grade: 1
+  type: 1
+  alwaysSpawn: 0
+  spawnStartHour: 18
+  spawnEndHour: 6
+  requiredItems: []
+  dropTable:
+  - item: {fileID: 11400000, guid: 1e9f8343ea374bf4e924e1091364d8b0, type: 2}
+    dropChance: 1
+    minQuantity: 2
+    maxQuantity: 5
+  - item: {fileID: 11400000, guid: c7f841a41e3a5f14786b1002824c9623, type: 2}
+    dropChance: 0.5
+    minQuantity: 2
+    maxQuantity: 4
+  productionSpeedMultiplier: 1
+  craftingSpeedMultiplier: 1

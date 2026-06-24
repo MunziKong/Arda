@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b26284d7c686054693fd9611eb2eee8, type: 3}
+  m_Name: Staff_Meteor
+  m_EditorClassIdentifier: Assembly-CSharp::SkillDefinition
+  skillId: Staff_Meteor
+  skillName: "\uBA54\uD14C\uC624"
+  description: "\uBC94\uC704\uB97C \uC9C0\uC815\uD558\uC5EC \uC77C\uC815 \uC2DC\uAC04
+    \uD6C4 \uD574\uB2F9 \uBC94\uC704\uC5D0 \uBA54\uD14C\uC624\uB97C \uB5A8\uC5B4\uB728\uB824,
+    \uD3ED\uBC1C\uC744 \uC77C\uC73C\uD0A4\uBA70 \uD070 \uB370\uBBF8\uC9C0\uB97C \uC8FC\uB294
+    \uC2A4\uD0AC"
+  cooldown: 15
+  targetType: 0
+  animationIndex: 2
+  actionDirectionMode: 0
+  weaponType: 1
+  skillIcon: {fileID: 21300000, guid: ba81e14ac19617b439986027c82948ef, type: 3}
+  aimMode: 2
+  aimRadius: 3
+  aimDistance: 20
+  startEffects:
+  - effect: {fileID: 11400000, guid: 8bd144fd130e3914da41ac521672d61d, type: 2}
+    multipliers:
+    - 3
+    - 2
+    - 1
+  - effect: {fileID: 11400000, guid: 47e24643b5b93c54ca3fd12a33b71996, type: 2}
+    multipliers:
+    - 30
+    - 10.2
+    - 3
+  applyEffects:
+  - effect: {fileID: 11400000, guid: 99f452f0747bf1c4db0627595db5773b, type: 2}
+    multipliers:
+    - 1.8
+    - 3
+    - 1
+  prefabs:
+  - type: 1
+    prefab: {fileID: 3188349670437276300, guid: 6eecd286ca82eb548b3e2ea803a05ea1, type: 3}
+  - type: 0
+    prefab: {fileID: 1846563170864394, guid: dd3f572c5e80ab744b418fd0b4f1abdd, type: 3}
+  - type: 2
+    prefab: {fileID: 6581819978879567992, guid: a64ebc97d12b6eb41a8e259f054d2f90, type: 3}
+  weaponSlotIndex: 0
+  startSfx:
+    clip: {fileID: 8300000, guid: 80835f9440ccf8047b7dcfff65b6e3bd, type: 3}
+    pitch: 1
+    volume: 0.5
+  applySfx:
+    clip: {fileID: 8300000, guid: cbd6e7774d789364090f22bb0271cf88, type: 3}
+    pitch: 1
+    volume: 0.5

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ab0e00876e1694b90726e8f8183999, type: 3}
+  m_Name: MQ_9
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDefinition
+  questId: 9
+  questName: "9. \uADC0\uD55C \uC190\uB2D8"
+  startDialogues:
+  - "\uC774\uBC88\uC5D4 \uC880 \uAE4C\uB2E4\uB85C\uC6B4 \uBD80\uD0C1\uC774\uC57C."
+  - "\uC544\uB974\uB2E4\uC5D0\uB294 \uC544\uBB34 \uB54C\uB098 \uB098\uD0C0\uB098\uC9C0
+    \uC54A\uB294 \uBAAC\uC2A4\uD130\uB4E4\uB3C4 \uC788\uC5B4. \uD558\uB8E8\uC5D0
+    \uB531 6\uC2DC\uAC04, \uC815\uD574\uC9C4 \uC2DC\uAC04\uC5D0\uB9CC \uBAA8\uC2B5\uC744
+    \uB4DC\uB7EC\uB0B4\uB294 \uCE5C\uAD6C\uB4E4\uC774\uC9C0."
+  - "\uB0AE\uC5D0\uB9CC \uBCF4\uC774\uB294 \uCE5C\uAD6C \uD558\uB098, \uBC24\uC5D0\uB9CC
+    \uBCF4\uC774\uB294 \uCE5C\uAD6C \uD558\uB098. \uB458 \uB2E4 \uD55C \uB9C8\uB9AC\uC529
+    \uAD6C\uC870\uD574\uC640."
+  - "\uB098\uD0C0\uB098\uB294 \uC2DC\uAC04\uC774 \uAE38\uC9C0 \uC54A\uC73C\uB2C8\uAE4C
+    \uC798 \uCC3E\uC544\uBCF4\uACE0, \uD0C0\uC774\uBC0D \uB193\uCE58\uC9C0 \uB9C8."
+  inProgressDialogues:
+  - "\uC11C\uB450\uB978\uB2E4\uACE0 \uBE68\uB9AC \uB098\uD0C0\uB098\uB294 \uAC83\uB3C4
+    \uC544\uB2C8\uB2C8\uAE4C, \uB290\uAE0B\uD558\uAC8C \uB9C8\uC74C\uBA39\uC5B4."
+  conditions:
+  - {fileID: 11400000, guid: 5bd6e8eafe0592749a0212ce74ccb0f5, type: 2}
+  - {fileID: 11400000, guid: 6f8b55f8463c86e4eaf3ea874a84b3ca, type: 2}
+  completionMode: 1
+  completeDialogues:
+  - "\uB458 \uB2E4 \uCC3E\uC558\uC5B4? \uC0DD\uAC01\uBCF4\uB2E4 \uB048\uAE30\uAC00
+    \uC788\uB124."
+  - "\uC774\uB7F0 \uCE5C\uAD6C\uB4E4\uC740 \uC790\uC8FC \uB9C8\uC8FC\uCE60 \uC218
+    \uC5C6\uB294 \uB9CC\uD07C, \uB9C8\uC8FC\uCCE4\uC744 \uB54C \uC880 \uB354 \uC2E0\uACBD
+    \uC368\uC11C \uCC59\uACA8\uC918."
+  acceptAtPortalOnly: 0
+  suppressNamePopup: 0
+  rewards:
+  - item: {fileID: 11400000, guid: 898de5fbf11a7084b9bd9155477716c4, type: 2}
+    quantity: 15000
+  - item: {fileID: 11400000, guid: dae37e65d527eff4ca4e5633ac97d883, type: 2}
+    quantity: 2
+  nextQuest: {fileID: 11400000, guid: 36cf947f33900914987abda2bddf8802, type: 2}

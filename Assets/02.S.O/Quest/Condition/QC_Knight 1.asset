@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2baad4a7aebaf43468d51e4b999d6a67, type: 3}
+  m_Name: QC_Knight 1
+  m_EditorClassIdentifier: Assembly-CSharp::KillEnemyCondition
+  description: "\uAE30\uC0AC \uCC98\uCE58"
+  targetEnemy: {fileID: 11400000, guid: 3ed2761b1f4adf14d8f98ffd9f76ebdc, type: 2}
+  requiredCount: 10
